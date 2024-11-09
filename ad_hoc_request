@@ -1,2 +1,12 @@
-# Ad_hoc_sql_questions 
+Ad_hoc_sql_questions 
+
 1. provide the list of markets in which customer "Atlique Exclusive" operates its business in the APAC region 
+2. what is the percentage of unique product increase in 2021 vs 2020 ? The final output contains these fields, unique_products_2020 , unique_products_2021, percentage_chg
+3. Provide a report with all the unique product count for each segment andsort them in desceding order of product counts. The final output contain these fields segment, product_count
+4. Follow up which segment had the most increase in unique products in 2021 vs 2020 the final output contains these feilds, segment_product_count_2020,produtct_count_2021, difference 
+5. Get the products that have the highest and lowest manufacturing costs. the final output should contain these fields, product_code,product , manufacturing_cost
+6. Generate a report that contains the top 5 customers who received an average high_pre_invoice_discount_pct for the fiscal_year 2021 and in the indian_market. The final output contain these field - customer_code, customer, average_discount_percentage;
+7. In which quater of 2020 got the maximum total_sold_quantity? the final output contains these fields sorted by the total_sold_quantity the final output contain these columns quater, total_sold_quantity 
+8. which channel bring more gross sales in the fiscal year 2021 and the percentage of contribution The final output contains these fields channel, gross_sales_mln, percentage
+9. Get the top 3 products in each division that have a high_total_sold_quantity in the year fiscal_year 2021 ? the final output contains these fields division , product_code
+
