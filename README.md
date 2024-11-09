@@ -14,4 +14,4 @@ My role is to act as a data analyst who is responsible for analyzing business da
 #Data modelling
 Here you can check the Data Model which is uded for this project. I have created this model in MySQL workbench
 
-![datamodel][datamodel/atliq_datamodel.png]
+![datamodel](datamodel/atliq_datamodel.png)
