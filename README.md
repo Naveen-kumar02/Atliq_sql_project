@@ -10,3 +10,6 @@ My role is to act as a data analyst who is responsible for analyzing business da
 # Task 
 - Run SQL queries to answer the ad hoc business requests
 - Analyze the data and identify key insights that respond to the needs of the business
+
+#Data modelling
+Here you can check the Data Model which is uded for this project. I have created this model in MySQL workbench
