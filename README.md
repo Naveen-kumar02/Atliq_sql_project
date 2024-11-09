@@ -13,7 +13,7 @@ My role is to act as a data analyst who is responsible for analyzing business da
 
 # Data Source:
 A sql files is provided by codebasics, which i have imported into Mysql Workbech and have got access the database named gbd0041(atliq_db). It include six main table 
-1. dim_customer                - contain customer-related data
+1. **dim_customer**               - contain customer-related data
 2. dim_product                 - contain product-related data
 3. fact_gross_price            - contain gross price information for each product
 4. fact_manufacturing_cost     - contain the cost incurred in the prodcution of each product
