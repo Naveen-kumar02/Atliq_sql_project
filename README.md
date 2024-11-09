@@ -28,3 +28,5 @@ Here you can check the Data Model which is uded for this project. I have created
 # Business Questinos (ad - hoc - request) 
 There are 9 ad hoc question on which i can run  SQL queries to extract answer and then analyze it for getting key insights from the outputs. 
 you can see the ad - hoc - request [here](ad_hoc_request)
+
+check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
