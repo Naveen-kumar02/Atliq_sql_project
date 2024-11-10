@@ -43,3 +43,33 @@ check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
       <p align="center"> 
      <img src = "sql_output/sql_2_output.png" alt="list of markets" />
       </p>
+   
+3. Provide a report with all the unique product count for each segment andsort them in desceding order of product counts.
+     <p align="center"> 
+     <img src = "sql_output/sql_3_output.png" alt="list of markets" />
+      </p>
+      
+4. Follow up which segment had the most increase in unique products in 2021 vs 2020
+   <p align="center"> 
+     <img src = "sql_output/sql_4_output.png" alt="list of markets" />
+      </p>
+5. Get the products that have the highest and lowest manufacturing costs
+   <p align="center"> 
+     <img src = "sql_output/sql_5_output.png" alt="list of markets" />
+      </p>
+6. Generate a report that contains the top 5 customers who received an average high_pre_invoice_discount_pct for the fiscal_year 2021 and in the indian_market.
+   <p align="center"> 
+     <img src = "sql_output/sql_6_output.png" alt="list of markets" />
+      </p>
+7. In which quater of 2020 got the maximum total_sold_quantity?
+   <p align="center"> 
+     <img src = "sql_output/sql_7_output.png" alt="list of markets" />
+      </p>
+8. which channel bring more gross sales in the fiscal year 2021 and the percentage of contribution
+   <p align="center"> 
+     <img src = "sql_output/sql_8_output.png" alt="list of markets" />
+      </p>
+9. Get the top 3 products in each division that have a high_total_sold_quantity in the year fiscal_year 2021 ?
+    <p align="center"> 
+     <img src = "sql_output/sql_9_output.png" alt="list of markets" />
+      </p>
