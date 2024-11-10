@@ -30,3 +30,8 @@ There are 9 ad hoc question on which i can run  SQL queries to extract answer an
 you can see the ad - hoc - request [here](ad_hoc_request)
 
 check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
+
+# Queries Insights 
+1. provide the list of markets in which customer "Atlique Exclusive" operates its business in the APAC region
+   <p align="center"> 
+     <img src = "sql_output/sql_1_output.png" alt="list of markets" />
