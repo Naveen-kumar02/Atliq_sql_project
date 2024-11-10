@@ -69,15 +69,25 @@ check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
      <img src = "sql_output/sql_6_output.png" alt="list of markets" />
       </p>
 -  Top customers like Flipkart, Viveks, and Ezone received **average discounts above 30%**. This strategy may be beneficial for volume sales but should be balanced against profit margins.Evaluate if these discounts are driving enough revenue to justify the lower margins.
+  
 7. In which quater of 2020 got the maximum total_sold_quantity?
    <p align="center"> 
      <img src = "sql_output/sql_7_output.png" alt="list of markets" />
       </p>
+- The **Q1** achieved the highest total sold quantity at **7.01 million units**, indicating strong sales performance at the beginning of the year.
+- Sales decreased in **Q2, Q4, and dropped significantly in Q3,** suggesting potential challenges like COVID-19 Pandemic Impact, economic uncertainty, Market Saturation, Retail and Distribution Challenges affecting sales as the year progressed.
+  
 8. which channel bring more gross sales in the fiscal year 2021 and the percentage of contribution
    <p align="center"> 
      <img src = "sql_output/sql_8_output.png" alt="list of markets" />
       </p>
+- The retailer channel generated $1,219.08 million, contributing 73.23% of total gross sales, highlighting its crucial role in revenue generation.
+- Strengthen relationships with retailers for better promotions while exploring ways to enhance sales through direct and distributor channels to improve overall contributions.
+  
 9. Get the top 3 products in each division that have a high_total_sold_quantity in the year fiscal_year 2021 ?
     <p align="center"> 
      <img src = "sql_output/sql_9_output.png" alt="list of markets" />
       </p>
+- The top-selling products are pen drives and gaming mice, indicating a high consumer preference in these categories. This suggests opportunities to expand product offerings and marketing efforts in these areas.
+-  The PC division's highest-selling product had significantly lower sales compared to other divisions, highlighting potential issues such as limited product variety or lack of market awareness. Further analysis is needed to improve performance.
+-  Ensure sufficient stock for high-demand products and consider targeted marketing strategies for the PC division to boost sales and align with consumer trends.
