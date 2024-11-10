@@ -93,4 +93,8 @@ check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
 -  Ensure sufficient stock for high-demand products and consider targeted marketing strategies for the PC division to boost sales and align with consumer trends.
 
 10. Get the report of the gross sales amount for the customer "Atliq Exclusive" for each month in fiscal_year = 2021. This analysis to get an idea of low and high performing months and take strategic decisions,the Final output inclued contains these columns  month, year, gross sales amount
+- The report of gross margin for the fiscal year 2021
+   <p align="center"> 
+     <img src = "sql_output/sql_10_output.png" alt="list of markets" />
+      </p>
     
