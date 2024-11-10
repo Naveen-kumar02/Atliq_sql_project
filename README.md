@@ -56,6 +56,9 @@ check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
    <p align="center"> 
      <img src = "sql_output/sql_4_output.png" alt="list of markets" />
       </p>
+- **Accessories** had the largest product increase, suggesting strong customer interest. Prioritize this segment for increased marketing and product development to maximize revenue.
+- Minimal growth in **Storage and Networking** may indicate limited demand. Assess these segments for possible optimization or cost reduction.
+
 5. Get the products that have the highest and lowest manufacturing costs
    <p align="center"> 
      <img src = "sql_output/sql_5_output.png" alt="list of markets" />
