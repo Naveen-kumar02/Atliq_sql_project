@@ -44,7 +44,7 @@ check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
      <img src = "sql_output/sql_2_output.png" alt="list of markets" />
       </p>
    - A 36.33% increase in unique products reflects a significant product expansion strategy.
-   -  Growing product diversity may cater to evolving consumer demands, potentially enhancing market share.
+   - Growing product diversity may cater to evolving consumer demands, potentially enhancing market share.
 3. Provide a report with all the unique product count for each segment andsort them in desceding order of product counts.
      <p align="center"> 
      <img src = "sql_output/sql_3_output.png" alt="list of markets" />
