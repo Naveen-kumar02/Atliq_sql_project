@@ -135,4 +135,19 @@ order by percentage desc;
 	select  *
     	from top_products 
 	where rnk<=3;
+
+-- 10) Get the report of the gross sales amount for the customer "Atliq Exclusive" for each month in fiscal_year = 2021. This analysis to get an idea of low and high performing months and take strategic decisions,
+--     the Final output inclued contains these columns  month, year, gross sales amount 
+
+	select 
+		extract(month from date) as month,
+		extract(year from date) as year,
+		concat(round(sum(sold_quantity * gross_price)/1000000,2)," M") as total_gross_sales_mln
+	from fact_sales_monthly s 
+	join fact_gross_price g 
+	on s.product_code = g.product_code 
+	join dim_customer c 
+	on c.customer_code = s.customer_code
+	where c.customer = "Atliq Exclusive" and s.fiscal_year = 2021
+	group by month , year;
  
