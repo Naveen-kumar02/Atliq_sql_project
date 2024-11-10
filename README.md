@@ -32,6 +32,12 @@ you can see the ad - hoc - request [here](ad_hoc_request)
 check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
 
 # Queries Insights 
-1. provide the list of markets in which customer "Atlique Exclusive" operates its business in the APAC region
+
+1. Provide the list of markets in which customer "Atlique Exclusive" operates its business in the APAC region
    <p align="center"> 
      <img src = "sql_output/sql_1_output.png" alt="list of markets" />
+   These are the list of market that atliq handling the business in APAC region 
+
+2. what is the percentage of unique product increase in 2021 vs 2020 ?
+      <p align="center"> 
+     <img src = "sql_output/sql_2_output.png" alt="list of markets" />
