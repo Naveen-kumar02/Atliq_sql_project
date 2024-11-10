@@ -63,10 +63,12 @@ check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
    <p align="center"> 
      <img src = "sql_output/sql_5_output.png" alt="list of markets" />
       </p>
+-  Consider evaluating high-cost products like AQ HOME Allin1 Gen 2 for possible cost-saving measures in manufacturing.
 6. Generate a report that contains the top 5 customers who received an average high_pre_invoice_discount_pct for the fiscal_year 2021 and in the indian_market.
    <p align="center"> 
      <img src = "sql_output/sql_6_output.png" alt="list of markets" />
       </p>
+-  Top customers like Flipkart, Viveks, and Ezone received **average discounts above 30%**. This strategy may be beneficial for volume sales but should be balanced against profit margins.Evaluate if these discounts are driving enough revenue to justify the lower margins.
 7. In which quater of 2020 got the maximum total_sold_quantity?
    <p align="center"> 
      <img src = "sql_output/sql_7_output.png" alt="list of markets" />
