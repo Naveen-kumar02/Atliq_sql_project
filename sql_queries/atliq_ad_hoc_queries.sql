@@ -124,7 +124,8 @@ order by percentage desc;
 	select 
 		p.division as division,
 		p.product_code as product_code,
-	sum(s.sold_quantity) as total_sold_quantity,
+		p.product as product_name,
+		sum(s.sold_quantity) as total_sold_quantity,
 	dense_rank() over(partition by p.division order by sum(s.sold_quantity)desc) as rnk
 	from dim_product p 
 	join fact_sales_monthly s
@@ -132,6 +133,6 @@ order by percentage desc;
 	where s.fiscal_year = 2021
 	group by p.division,p.product_code)
 	select  *
-    from top_products 
+    	from top_products 
 	where rnk<=3;
  
