@@ -91,3 +91,6 @@ check out the Quries from [here](sql_queries/atliq_ad_hoc_queries.sql)
 - The top-selling products are pen drives and gaming mice, indicating a high consumer preference in these categories. This suggests opportunities to expand product offerings and marketing efforts in these areas.
 -  The PC division's highest-selling product had significantly lower sales compared to other divisions, highlighting potential issues such as limited product variety or lack of market awareness. Further analysis is needed to improve performance.
 -  Ensure sufficient stock for high-demand products and consider targeted marketing strategies for the PC division to boost sales and align with consumer trends.
+
+10. Get the report of the gross sales amount for the customer "Atliq Exclusive" for each month in fiscal_year = 2021. This analysis to get an idea of low and high performing months and take strategic decisions,the Final output inclued contains these columns  month, year, gross sales amount
+    
