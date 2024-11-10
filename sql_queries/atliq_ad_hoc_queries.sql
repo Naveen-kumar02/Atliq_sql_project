@@ -100,23 +100,22 @@
 -- Q8) which channel bring more gross sales in the fiscal year 2021 and the percentage of contribution 
 --     The final output contains these fields -> channel, gross_sales_mln, percentage
 
-	with cte as(
-	select 
-		c.channel ,
-		round(sum(s.sold_quantity * g.gross_price)/1000000,2) as total_gross_sales
-	from fact_sales_monthly s 
-	join fact_gross_price g 
-	on g.product_code = s.product_code
-	join dim_customer c
-	on s.customer_code = c.customer_code
-	where s.fiscal_year = 2021
-	group by c.channel )
-	select 
-		channel,
-		total_gross_sales,
-		round(total_gross_sales/(select sum(total_gross_sales) from cte),2)*100 as pct_contribution
-	from cte
-	order by total_gross_sales desc;
+	with channel_gs as(
+select 
+	channel, 
+	sum(gross_price*sold_quantity) as gross_sales 
+from fact_gross_price
+join fact_sales_monthly using(product_code, fiscal_year)
+join dim_customer using(customer_code)
+where fiscal_year = 2021
+group by channel)
+
+select 
+	channel, 
+	round(gross_sales/1000000,2) as gross_sales_mln, 
+	round((gross_sales/(select sum(gross_sales) from channel_gs))*100,2) as percentage
+from channel_gs
+order by percentage desc; 
 
 -- Q9) Get the top 3 products in each division that have a high_total_sold_quantity in the year fiscal_year 2021 ? 
 --      the final output contains these fields division , product_code
