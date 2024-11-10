@@ -9,4 +9,5 @@ Ad_hoc_sql_questions
 7. In which quater of 2020 got the maximum total_sold_quantity? the final output contains these fields sorted by the total_sold_quantity the final output contain these columns quater, total_sold_quantity 
 8. which channel bring more gross sales in the fiscal year 2021 and the percentage of contribution The final output contains these fields channel, gross_sales_mln, percentage
 9. Get the top 3 products in each division that have a high_total_sold_quantity in the year fiscal_year 2021 ? the final output contains these fields division , product_code
+10.  Get the report of the gross sales amount for the customer "Atliq Exclusive" for each month in fiscal_year = 2021. This analysis to get an idea of low and high performing months and take strategic decisions, the Final output inclued contains these columns  month, year, gross sales amount 
 
